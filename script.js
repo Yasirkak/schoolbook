@@ -72,6 +72,13 @@ function loadName(){
 	createP.appendChild(createN);
 }
 
+//hide name gömmer användarens namn så den inte kommer ivägen när användaren scrollar
+
+function hideName(){
+
+	setTimeout(document.getElementById("popUpDiv").style.display = "none", 3000);
+}
+
 
 
 // kalender
